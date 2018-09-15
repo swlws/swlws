@@ -1,0 +1,8 @@
+{
+  "editor.detectIndentation": false,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "git.ignoreLimitWarning": true
+}
