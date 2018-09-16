@@ -1,0 +1,15 @@
+.home_nav_title{
+  text-align: center;
+}
+.home_nav_title > p:first-child{
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 10px 0;
+  margin: 20px 0px 0px 0px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.home_nav_title > p:last-child{
+  font-size: 14px;
+  padding: 5px 0;
+  font-family: 'Times New Roman', Times, serif;
+}

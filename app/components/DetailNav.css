@@ -1,0 +1,36 @@
+.nav_detail_box{
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+  justify-content: center;
+  color: #FFF;
+  user-select: none;
+}
+
+.nav_detail_box > div{
+  /* flex:auto; */
+  width: 300px;
+  height: 200px;
+  border: 1px solid #CCC;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+.nav_detail_box > div:hover{
+  cursor: pointer;
+  box-shadow: 0 26px 40px -24px rgba(0,36,100,.5);
+}
+
+.nav_detail_box header{
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 10px auto 20px;
+}
+
+.nav_detail_box article{
+  font-size: 14px;
+  text-align: center;
+  margin: 30px auto 10px;
+}
