@@ -1,0 +1,9 @@
+.main_layout_header{
+    width: 100%;
+    text-align: center;
+    background: #2B3A42;
+    color: #2B3A42;
+}
+.main_layout_header > div{
+    display: inline-block;
+}

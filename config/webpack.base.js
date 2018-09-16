@@ -8,7 +8,7 @@ const dist = path.resolve(__dirname, '../dist');
 
 module.exports = {
   entry: {
-    index: './app/index.js'
+    app: './app/app.js'
   },
   output: {
     path: dist,
@@ -56,7 +56,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin([dist]),
     new CopyWebpackPlugin([
-      { from: path.resolve(__dirname, '../app/index.html'), to: path.resolve(__dirname, dist) }
+      { from: path.resolve(__dirname, '../app/app.html'), to: path.resolve(__dirname, dist) }
     ])
   ]
 };

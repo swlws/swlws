@@ -14,6 +14,7 @@ let config = {
   ],
   devServer: {
     contentBase: path.resolve(__dirname, '../dist'),
+    index:'app.html',
     host: 'localhost',
     compress: true,
     port: 8888

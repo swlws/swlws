@@ -1,0 +1,26 @@
+.main_menu{
+    height: 40px;
+}
+.main_menu > div{
+    display: inline-block;
+    padding: 0px 7px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.main_menu > div > span {
+    font-size: 14px;
+    color: #FFF;
+}
+
+.main_menu > div > span:hover{
+    color: #2086d7;
+    border-bottom: 2px solid #8DD6F9;
+}
+
+.main_menu_item_selected{
+    color: #2086d7 !important;
+    border-bottom: 2px solid #8DD6F9;
+}
